@@ -2,7 +2,6 @@
   "name": "@sethb0/vueawesome",
   "version": "0.1.0",
   "description": "FontAwesome 5 integration for Vue.js",
-  "main": "index.js",
   "scripts": {
     "postinstall": "npm link @fortawesome/fontawesome",
     "eslint": "eslint *.js dist"
