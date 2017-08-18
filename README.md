@@ -6,17 +6,24 @@ Make sure to `npm run postinstall` after any install or uninstall to relink the 
 
 ### Example of use
 
-```vue
-<template>
-  <p>It's just a <i v-html="question"></i> of time.</p>
-  <p>A really big <i v-html="bigQuestion"></i></p>
-  <p>An unanswered <i v-html="faQuestionCircle"></i></p>
-</template>
+In your initialization code:
+```js
+import Vue from 'vue/dist/vue.esm';
+import VueAwesome from '@sethb0/vueawesome/dist/vueawesome.esm';
 
-<script>
+Vue(VueAwesome);
+```
+
+Example component:
+```js
 import { faQuestionCircle } from '@fortawesome/fontawesome-solid';
 
 export default {
+  template: `
+<p>It's just a <i v-html="question"></i> of time.</p>
+<p>A really big <i v-html="bigQuestion"></i></p>
+<p>A simple <i v-html="faQuestionCircle"></i></p>
+`,
   fontawesome: {
     question: faQuestionCircle,
     // passing options:
@@ -25,5 +32,4 @@ export default {
     faQuestionCircle
   }
 }
-</script>
 ```
