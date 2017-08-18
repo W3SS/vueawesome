@@ -20,10 +20,11 @@ import { faQuestionCircle } from '@fortawesome/fontawesome-solid';
 
 export default {
   template: `
-<p>It's just a <i v-html="question"></i> of time.</p>
-<p>A really big <i v-html="bigQuestion"></i></p>
-<p>A simple <i v-html="faQuestionCircle"></i></p>
-`,
+<div>
+  <p>It's just a <i v-html="question"></i> of time.</p>
+  <p>A really big <i v-html="bigQuestion"></i></p>
+  <p>A simple <i v-html="faQuestionCircle"></i></p>
+</div>`,
   fontawesome: {
     question: faQuestionCircle,
     // passing options:
