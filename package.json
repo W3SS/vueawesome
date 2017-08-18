@@ -4,7 +4,8 @@
   "description": "FontAwesome 5 integration for Vue.js",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint *.js"
+    "postinstall": "npm link @fortawesome/fontawesome",
+    "eslint": "eslint *.js dist"
   },
   "repository": {
     "type": "git",
@@ -25,8 +26,8 @@
   "dependencies": {},
   "devDependencies": {
     "@sethb0/eslint-config-mfllc": "^0.2.0",
-    "eslint": "^4.4.1",
-    "vue": "^2.4.2"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1"
   },
   "peerDependencies": {
     "vue": "^2.4.2"
