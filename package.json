@@ -1,0 +1,34 @@
+{
+  "name": "@sethb0/vueawesome",
+  "version": "0.1.0",
+  "description": "FontAwesome 5 integration for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethb0/vueawesome.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "FontAwesome",
+    "icons"
+  ],
+  "author": "Seth Blumberg <sethb@pobox.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethb0/vueawesome/issues"
+  },
+  "homepage": "https://github.com/sethb0/vueawesome#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@sethb0/eslint-config-mfllc": "^0.2.0",
+    "eslint": "^4.4.1",
+    "vue": "^2.4.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.4.2"
+  }
+}
