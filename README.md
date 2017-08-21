@@ -9,7 +9,7 @@ Make sure to `npm run postinstall` after any install or uninstall to relink the 
 In your initialization code:
 ```js
 import Vue from 'vue/dist/vue.esm';
-import VueAwesome from '@sethb0/vueawesome/dist/vueawesome.esm';
+import VueAwesome from '@sethb0/vueawesome/vueawesome.esm';
 
 Vue(VueAwesome);
 ```
